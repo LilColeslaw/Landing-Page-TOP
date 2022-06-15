@@ -83,7 +83,7 @@ button {
     width: 108px;
     height: 24px;
     color: #e5e7eb;
-    border-radius: 10px;
+    border-radius: 5px;
     border: none;
 }
 
@@ -135,4 +135,33 @@ p {
 .thor {
     font-weight: bold;
     text-align: right;
+    font-size: 18px;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    display: flex;
+    margin: 72px 96px;
+    padding: 48px 60px;
+    border-radius: 5px;
+    color: #f9faf8;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-up2 {
+    border-color:#e5e7eb;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.call-to-action span {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.call-to-action div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
