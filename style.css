@@ -25,6 +25,7 @@ a {
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header {
@@ -165,3 +166,7 @@ p {
     flex-direction: column;
     gap: 8px;
 }
+
+/*.footer {
+    background-color: #1f2937;
+}*/
