@@ -119,3 +119,20 @@ p {
 .description {
     text-align: center;
 }
+
+.quote {
+    font-size: 36px;
+    font-weight: light; 
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 120px 300px 120px 300px;
+}
+
+.thor {
+    font-weight: bold;
+    text-align: right;
+}
