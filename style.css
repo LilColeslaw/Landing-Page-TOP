@@ -94,6 +94,9 @@ p {
 
 .mid {
  padding: 60px 288px 96px 288px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
 }
 
 .information-header {
@@ -106,15 +109,9 @@ p {
 
 .information {
     display: flex;
-    gap: 16px;
+    gap: 48px;
     justify-content: space-between;
-}
-
-.little-info {
-    display: flex;
-    flex-direction: column;
-    width: 150px;
-    gap: 8px;
+    flex-wrap: wrap;
 }
 
 .description {
@@ -172,4 +169,8 @@ p {
     color:#e5e7eb;
     text-align: center;
     padding: 24px 300px;
+}
+
+.information div {
+    width: 150px;
 }
