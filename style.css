@@ -94,9 +94,6 @@ p {
 
 .mid {
  padding: 60px 288px 96px 288px;
- display: flex;
- flex-direction: column;
- align-items: center;
 }
 
 .information-header {
